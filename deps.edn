@@ -1,0 +1,8 @@
+{:deps {org.clojure/clojure {:mvn/version "1.10.3"}
+        ring/ring-core {:mvn/version "1.9.0"}
+        ring/ring-jetty-adapter {:mvn/version "1.9.0"}
+        compojure {:mvn/version "1.6.2"}
+        hiccup {:mvn/version "1.0.5"}
+        cheshire {:mvn/version "5.10.0"}}
+ :paths ["src"]
+ :aliases {:run {:main-opts ["-m" "be.core"]}}}
