@@ -1,12 +1,12 @@
 (ns be.core
-  (:require [compojure.core :refer :all]
-             [compojure.route :as route]
-             [ring.adapter.jetty :refer [run-jetty]]
-             [ring.middleware.params :refer [wrap-params]]
-             [hiccup.core :refer [html]]
-             [cheshire.core :as json]
-             [clojure.java.io :as io]
-             [clojure.string :as str]))
+(:require [compojure.core :refer :all]
+           [compojure.route :as route]
+           [ring.adapter.jetty :refer [run-jetty]]
+           [ring.middleware.params :refer [wrap-params]]
+           [hiccup.core :refer [html]]
+           [cheshire.core :as json]
+           [clojure.java.io :as io]
+           [clojure.string :as str]))
 
 (defn load-todos []
   (if (.exists (io/file "todos.json"))
