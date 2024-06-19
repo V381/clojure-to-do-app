@@ -11,7 +11,7 @@ COPY . .
 RUN clojure -A:uberjar
 
 # Expose the port that the app runs on
-EXPOSE 10000
+EXPOSE 3000
 
 # Define the command to run the application
 CMD ["java", "-Dclojure.main.report=stderr", "-jar", "target/uberjar/clojure-to-do-app.jar"]
