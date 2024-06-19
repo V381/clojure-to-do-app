@@ -1,6 +1,7 @@
 {:paths ["src"]
  :deps {org.clojure/clojure {:mvn/version "1.10.1"}
-        compojure {:mvn/version "1.6.2"}
+        compojure {:mvn/version "1.6.2"} 
+        ring {:mvn/version "1.1.6"}
         ring/ring-core {:mvn/version "1.9.3"}
         ring/ring-jetty-adapter {:mvn/version "1.9.3"}
         ring/ring-defaults {:mvn/version "0.3.2"}
