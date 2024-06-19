@@ -143,5 +143,5 @@
   (wrap-params app-routes))
 
 (defn -main []
-  (let [port (Integer. (or (System/getenv "PORT") "3000"))]
+  (let [port (Integer. (or (System/getenv "PORT") "10000"))]
     (run-jetty app {:port port :join? false})))
