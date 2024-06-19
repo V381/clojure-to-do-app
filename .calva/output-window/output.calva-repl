@@ -229,3 +229,17 @@ clj꞉be.core꞉> 
 ; 
 
 ; Starting Jack-in Terminal: pushd c:\Users\pavle.paunovic\Desktop\Projects\Clojure-First-App & java -jar ".calva\deps.clj.jar" -Sdeps "{:deps {nrepl/nrepl {:mvn/version,""1.1.1""},cider/cider-nrepl {:mvn/version,""0.47.1""}}}" -M:run & popd
+; Jacking in...
+; Connecting using "deps.edn" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: pushd c:\Users\pavle.paunovic\Desktop\Projects\Clojure-First-App\clojure-to-do-app & java -jar ".calva\deps.clj.jar" -Sdeps "{:deps {nrepl/nrepl {:mvn/version,""1.1.1""},cider/cider-nrepl {:mvn/version,""0.47.1""}}}" -M:run & popd
+; Jacking in...
+; Connecting using "Leiningen" project type.
+; You can make Calva auto-select this.
+;   - See https://calva.io/connect-sequences/
+; 
+
+; Starting Jack-in Terminal: pushd c:\Users\pavle.paunovic\Desktop\Projects\Clojure-First-App\clojure-to-do-app & cmd.exe /d /c lein update-in :dependencies conj [nrepl,"1.1.1"] -- update-in :plugins conj [cider/cider-nrepl,"0.47.1"] -- update-in [:repl-options,:nrepl-middleware] conj '["cider.nrepl/cider-middleware"]' -- with-profile +uberjar repl :headless & popd
